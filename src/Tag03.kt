@@ -8,8 +8,11 @@ fun main(){
     var rest = 90%20
 
     // Type Conversion
-    var stringValue = readln()
-    var convertedString = stringValue.toDouble()
+    var stringValue: String = readln() // "30" -> String, kann man nicht mit rechnen
+
+    var convertedString = stringValue.toDouble() // String in eine Zahl, nämlich Double, umwandeln
+    println("${stringValue+5}") // String + 5
+    println("ConvertedString (also ein Double) +5: ${convertedString+5}")
 
     var doubleValue = convertedString
     var convertedDouble = convertedString.toInt()
