@@ -13,5 +13,19 @@ fun main(){
     // Boolean: Wahrheitswert, immer entweder true oder false
     var isSunShining: Boolean = false
     val IS_EARTH_TURNING: Boolean = true
+
+    // live beispiele
+
+    var fullName: String = "Marie Mustermann"
+    println(fullName)
+
+    fullName = "Marie Mueller"
+    println("$fullName , $fullName")
+
+    var nameEingeben = readln()
+    println(nameEingeben)
+    nameEingeben = readln()
+    println("Neuer Name: $nameEingeben")
+
     
 }
